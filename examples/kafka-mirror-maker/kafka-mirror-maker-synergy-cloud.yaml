@@ -10,4 +10,4 @@ spec:
     groupId: synergy-server-mirror-group
   producer:
     bootstrapServers: my-cluster-kafka-bootstrap:9092
-  whitelist: "synergy-server-*"
+  whitelist: "^synergy-server-.*"
