@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\examples",
+    "\\examples\\kafka-mirror-maker",
+    "\\mockkube\\src",
+    "\\mockkube\\src\\main",
+    "\\mockkube\\src\\main\\java",
+    "\\mockkube\\src\\main\\java\\io",
+    "\\mockkube\\src\\main\\java\\io\\strimzi",
+    "\\mockkube\\src\\main\\java\\io\\strimzi\\test",
+    "\\mockkube\\src\\main\\java\\io\\strimzi\\test\\mockkube"
+  ],
+  "SelectedNode": "\\examples\\kafka-mirror-maker\\kafka-mirror-maker-tls.yaml",
+  "PreviewInSolutionExplorer": false
+}

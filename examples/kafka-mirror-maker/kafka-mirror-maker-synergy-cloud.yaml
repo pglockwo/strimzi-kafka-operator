@@ -8,6 +8,14 @@ spec:
   consumer:
     bootstrapServers: 10.0.0.4:31806
     groupId: synergy-server-mirror-group
+    tls:
+      trustedCertificates:
+      - secretName: my-cluster-cluster-ca-cert
+        certificate: ca.crt
   producer:
     bootstrapServers: my-cluster-kafka-bootstrap:9092
+    tls:
+      trustedCertificates:
+        - secretName: my-cluster-cluster-ca-cert
+          certificate: ca.crt
   whitelist: "^synergy-server-.*"
