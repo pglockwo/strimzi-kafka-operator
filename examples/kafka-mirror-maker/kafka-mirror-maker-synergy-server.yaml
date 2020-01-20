@@ -13,7 +13,7 @@ spec:
       - secretName: my-cluster-cluster-ca-cert
         certificate: ca.crt
   producer:
-    bootstrapServers: my-cluster-kafka-bootstrap:9092
+    bootstrapServers: my-cluster-kafka-bootstrap:9093
     tls:
       trustedCertificates:
         - secretName: my-cluster-cluster-ca-cert
