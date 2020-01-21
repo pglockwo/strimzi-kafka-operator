@@ -11,7 +11,7 @@ spec:
     tls:
       trustedCertificates:
         - secretName: my-source-cluster-cluster-ca-cert
-          certificate: 10.0.0.4.crt
+          certificate: synergy-server.crt
   producer:
     bootstrapServers: my-cluster-kafka-bootstrap:9093
     tls:
