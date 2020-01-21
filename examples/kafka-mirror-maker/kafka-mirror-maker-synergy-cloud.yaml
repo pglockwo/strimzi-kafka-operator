@@ -6,7 +6,7 @@ spec:
   version: 2.3.1
   replicas: 1
   consumer:
-    bootstrapServers: synergy-server:31806
+    bootstrapServers: 10.0.0.4:31806
     groupId: synergy-server-mirror-group
     tls:
       trustedCertificates:
