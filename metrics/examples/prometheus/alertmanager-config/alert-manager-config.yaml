@@ -1,6 +1,6 @@
 # oc create secret generic alertmanager-alertmanager --from-file=alertmanager.yaml=alert-manager-config.yaml
 global:
-  slack_api_url: https://hooks.slack.com/services/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
+  slack_api_url: https://hooks.slack.com/services/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
 route:
   receiver: slack
 receivers:
