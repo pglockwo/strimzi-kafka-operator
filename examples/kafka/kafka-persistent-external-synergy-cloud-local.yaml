@@ -136,13 +136,6 @@ spec:
       type: persistent-claim
       size: 1Gi
       deleteClaim: false
-    resources:
-      limits:
-        cpu: 100m
-        memory: 500M
-      requests:
-        cpu: 100m
-        memory: 500M
     metrics:
       # Inspired by Zookeeper rules
       # https://github.com/prometheus/jmx_exporter/blob/master/example_configs/zookeeper.yaml
