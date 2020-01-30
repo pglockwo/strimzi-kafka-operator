@@ -5,9 +5,6 @@ metadata:
 spec:
   kafka:
     version: 2.3.1
-    resources:
-     limits:
-      memory: "1Gi"
     replicas: 3
     listeners:
       plain: {}
