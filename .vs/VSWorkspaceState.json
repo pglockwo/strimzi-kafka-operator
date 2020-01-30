@@ -3,9 +3,14 @@
     "",
     "\\examples",
     "\\examples\\kafka",
-    "\\examples\\kafka-connect",
-    "\\examples\\kafka-mirror-maker"
+    "\\examples\\topic",
+    "\\metrics",
+    "\\metrics\\examples",
+    "\\metrics\\examples\\prometheus",
+    "\\metrics\\examples\\prometheus\\additional-properties",
+    "\\metrics\\examples\\prometheus\\alertmanager-config",
+    "\\metrics\\examples\\prometheus\\install"
   ],
-  "SelectedNode": "\\examples\\kafka-mirror-maker\\kafka-mirror-maker-synergy-cloud.yaml",
+  "SelectedNode": "\\examples\\topic\\kafka-topic.yaml",
   "PreviewInSolutionExplorer": false
 }
