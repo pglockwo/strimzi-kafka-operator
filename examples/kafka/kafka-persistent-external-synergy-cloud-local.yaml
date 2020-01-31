@@ -139,6 +139,13 @@ spec:
           quantile: "0.$4"
   zookeeper:
     replicas: 3
+    resources:
+      requests:
+        memory: 512Mi
+        cpu: 150m
+      limits:
+        memory: 512Mi
+        cpu: 150m
     storage:
       type: persistent-claim
       size: 5Gi
