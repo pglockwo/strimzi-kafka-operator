@@ -31,8 +31,8 @@ spec:
       volumes:
       - id: 0
         type: persistent-claim
-        size: 1Gi               
-        deleteClaim: false
+        size: 5Gi               
+        deleteClaim: true
     metrics:
       # Inspired by config from Kafka 2.0.0 example rules:
       # https://github.com/prometheus/jmx_exporter/blob/master/example_configs/kafka-2_0_0.yml
@@ -134,8 +134,8 @@ spec:
     replicas: 3
     storage:
       type: persistent-claim
-      size: 1Gi
-      deleteClaim: false
+      size: 5Gi
+      deleteClaim: true
     metrics:
       # Inspired by Zookeeper rules
       # https://github.com/prometheus/jmx_exporter/blob/master/example_configs/zookeeper.yaml
