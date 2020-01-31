@@ -9,10 +9,10 @@ spec:
     resources:
       requests:
         memory: 1Gi
-        cpu: "2"
+        cpu: "1"
       limits:
         memory: 1Gi
-        cpu: "2"
+        cpu: "1"
     listeners:
       plain: {}
       tls: {}
